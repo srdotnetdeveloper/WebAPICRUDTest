@@ -1,1 +1,13 @@
 initial commit
+
+git init
+
+git add  . for all files
+git add <<path of the file>>
+
+git commit -m "<<Commit msg>>
+
+establish connection between remote and local drive : git remote add <<customname>> <<repo-url>>
+
+Push the code to remote : git push -u <<customName>> <<targetbranch>>
+                        i.e., git push -u origin master
